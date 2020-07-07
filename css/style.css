@@ -1,0 +1,103 @@
+body {
+
+}
+
+#body {
+	background-color: #EBEDEF;
+	width: 98%;
+	margin: auto;
+	margin-top: 100px;
+	border: 2px solid #EC7063;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-weight: 700;
+	font-size: 1em;
+
+}
+
+#on input {
+	color: green;
+	background-color: green;
+
+}
+
+/*#r1c1 {
+	border: 1px solid #000;
+}*/
+
+#r1c1 > div {
+	background-color: #EC7063;
+	border: 1px solid #000;
+	box-shadow: 0 7px 14px;
+	border-radius: 6px;
+	margin: 10px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #fff;
+}
+#r1c1 > div form {
+	margin: 32px;
+	color: #000;
+}
+
+/*#r1c2 {
+	border: 1px solid #000;
+}*/
+
+#r1c2 > div {
+	background-color: #EC7063;
+	border: 1px solid #000;
+	box-shadow: 0 7px 14px;
+	border-radius: 6px;
+	margin: 10px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #fff;
+}
+#r1c2 > div form {
+	margin: 44px;
+}
+
+#row-2 {
+	background-color:#5DADE2;
+	border: 1px solid #000;
+	border-radius: 7px;
+	margin: 10px;
+	padding-top: 20px; 
+	padding-bottom: 20px; 
+}
+#row-2 input {
+	width: 280px;
+}
+#btn {
+	margin: 10px;
+	width: 120px;
+}
+
+#cf-2 h3 {
+	margin-top: 80px;
+	margin-bottom: 50px;
+	text-decoration: underline;
+}
+
+#fm-1 input {
+	color: red;
+}
+
+#unitvalue {
+	border: 1px solid #000;
+	background-color: #fff;
+}
+#balancevalue {
+	border: 1px solid #000;
+	background-color: #fff;
+	width: 150px;
+}
+
+@media (min-width: 900px) {
+	#balancevalue {
+		width: 280px;
+	}
+}
+
+

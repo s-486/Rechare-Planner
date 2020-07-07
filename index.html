@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Switch</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+	<div id="body">
+		<div id="cf-1" class="container-fluid">
+			<div id="row-1" class="row">
+				<div id="r1c1" class="col text-center">
+					<div>
+						<form>
+							<table>
+								<tr>
+									<td><label id="unit">Unit= </label></td>
+									<td><p id="unitvalue">Unit</p>
+								</tr>
+								<tr>
+									<td><label id="balance">Balance= </td></label>
+									<td><p id="balancevalue">Balance</p></td>
+								</tr>
+							</table>
+						</form>
+					</div>
+				</div>
+				<div id="r1c2" class="col text-center">
+					<div>
+						<form id="form" action="">
+							<h3>Power</h3>
+							<!-- <button>On</button>
+							<button>Off</button> -->
+							<input type="radio" name="engine" id="on" value="on" />On
+							<input type="radio" id="off" name="engine" value="off" />Off
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="cf-2" class="container-fluid">
+			<h3 class="text-center">Recharge Here</h3>
+			<div id="row-2">
+				<h6 class="text-center" style="font-family: monospace; font-size: 24px;">Last recharge was on 26.06.20</h6>
+				<div id="r2c1" class="col">
+					<form>
+						<label>
+							Enter ID : 
+							<br>
+							<input type="text" name="ID" id="id" placeholder="Enter ID here">
+						</label>
+						<br>
+						<label>
+							Enter Amount : 
+							<br>
+							<input type="text" name="amount" id="amount" placeholder="Enter Amount here">
+						</label>
+						<br>
+						<div class="text-center">
+							<button id="btnpay" class="btn btn-success text-center" type="button" value="pay" onclick="display();">Pay</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid text-center">
+		*****
+	</div>
+
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
